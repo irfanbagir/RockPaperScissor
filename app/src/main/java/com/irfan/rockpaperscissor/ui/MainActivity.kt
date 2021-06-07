@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar?.hide()
         setClickListener()
+        resetGame()
 
     }
 
@@ -48,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             setPlayerPick(players = Players.HUMAN, userPick)
             Log.d(TAG, "User Pick: $userPick")
             checkWinner()
-            resetGame()
+
         }
 
     }
