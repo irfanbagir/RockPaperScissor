@@ -4,4 +4,6 @@
     <string name="result_draw">Draw</string>
     <string name="result_player_win">Player Wins</string>
     <string name="result_start_text">VS</string>
+    <string name="tv_player_1">Player</string>
+    <string name="tv_player_2">Com</string>
 </resources>

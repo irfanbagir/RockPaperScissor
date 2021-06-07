@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/funny"
-            android:text="Player"
+            android:text="@string/tv_player_1"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="@dimen/_25ssp" />
@@ -106,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/funny"
-            android:text="Com"
+            android:text="@string/tv_player_2"
             android:textColor="@color/black"
             android:textSize="@dimen/_25ssp" />
         <FrameLayout
