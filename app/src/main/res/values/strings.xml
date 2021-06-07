@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">RockPaperScissor</string>
-    <string name="result_com_win">Player 2 Won</string>
+    <string name="result_com_win">Player 2 Wins</string>
     <string name="result_draw">Draw</string>
-    <string name="result_player_win">Player 1 Won</string>
+    <string name="result_player_win">Player 1 Wins</string>
+    <string name="result_start_text">VS</string>
 </resources>

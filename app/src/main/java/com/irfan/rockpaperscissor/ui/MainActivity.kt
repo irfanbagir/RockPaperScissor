@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
             setPlayerPick(players = Players.HUMAN, userPick)
             Log.d(TAG, "User Pick: $userPick")
             checkWinner()
+            resetGame()
         }
 
     }
@@ -100,7 +101,6 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "Computer Pick: $comPick")
         setPlayerPick(players = Players.COMPUTER,comPick)
 
-
         if ((userPick+1)%3 == comPick) {
             text.setText(getString(R.string.result_com_win))
         }else if (userPick == comPick){
@@ -108,6 +108,19 @@ class MainActivity : AppCompatActivity() {
     }else{
             text.setText(getString(R.string.result_player_win))
     }
+    }
+    private fun resetGame(){
+        binding.icRefresh.setOnClickListener{
+            binding.tvResult.text = getString(R.string.result_start_text)
+            binding.flPlayerPaper.setBackgroundResource(0)
+            binding.flPlayerRock.setBackgroundResource(0)
+            binding.flPlayerScissor.setBackgroundResource(0)
+            binding.flComPaper.setBackgroundResource(0)
+            binding.flComRock.setBackgroundResource(0)
+            binding.flComScissor.setBackgroundResource(0)
+
+
+        }
     }
 
     }

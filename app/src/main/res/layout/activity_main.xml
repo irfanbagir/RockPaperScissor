@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
+    android:background="@color/white"
     tools:context=".ui.MainActivity">
 
     <ImageView
@@ -154,12 +154,13 @@
     <TextView
         android:gravity="center"
         android:id="@+id/tv_result"
-        android:layout_width="@dimen/_100sdp"
+        android:layout_width="@dimen/_117sdp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/funny"
-        android:text="VS"
+        android:rotation="-20"
+        android:text="@string/result_start_text"
         android:textColor="@color/black"
-        android:textSize="@dimen/_30sdp"
+        android:textSize="@dimen/_27sdp"
         app:layout_constraintBottom_toTopOf="@id/ic_refresh"
         app:layout_constraintLeft_toRightOf="@id/ll_player_left"
         app:layout_constraintRight_toLeftOf="@id/ll_com_right"
