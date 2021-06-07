@@ -160,7 +160,7 @@
         android:rotation="-20"
         android:text="@string/result_start_text"
         android:textColor="@color/black"
-        android:textSize="@dimen/_27sdp"
+        android:textSize="@dimen/_26sdp"
         app:layout_constraintBottom_toTopOf="@id/ic_refresh"
         app:layout_constraintLeft_toRightOf="@id/ll_player_left"
         app:layout_constraintRight_toLeftOf="@id/ll_com_right"
