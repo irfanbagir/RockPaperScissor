@@ -1,5 +1,5 @@
 package com.irfan.rockpaperscissor.enum
 
 enum class Players {
-    HUMAN,COMPUTER
+    PLAYER1,PLAYER2,COMPUTER
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/teal_200_transparent"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.game.PlayerVsComActivity">
 
     <ImageView
         android:id="@+id/ic_logo"
@@ -106,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/funny"
-            android:text="@string/tv_player_2"
+            android:text="@string/tv_com"
             android:textColor="@color/black"
             android:textSize="@dimen/_25ssp" />
         <FrameLayout

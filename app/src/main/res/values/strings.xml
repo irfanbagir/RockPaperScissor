@@ -2,8 +2,21 @@
     <string name="app_name">RockPaperScissor</string>
     <string name="result_com_win">Com Wins</string>
     <string name="result_draw">Draw</string>
-    <string name="result_player_win">Player Wins</string>
+    <string name="result_player_win">Player 1 Wins</string>
     <string name="result_start_text">VS</string>
-    <string name="tv_player_1">Player</string>
-    <string name="tv_player_2">Com</string>
+    <string name="tv_player_1">Player 1</string>
+    <string name="tv_player_2">Player 2</string>
+    <string name="tv_com">COM</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_error_toast_name_empty">Name still Empty</string>
+    <string name="result_player_two_wins">Player 2 Wins</string>
+    <string name="tv_dialog_title">Hasil Permainan</string>
+    <string name="btn_play_again">Play Again</string>
+    <string name="btn_back_to_menu">Back to Menu</string>
+    <string name="tv_player_name_title">ENTER YOUR NAME:</string>
+    <string name="tv_desc_player_vs_com">Bermain suit melawan sesama pemain</string>
+    <string name="tv_desc_player_vs_player">Bermain suit melawan sesama pemain</string>
+    <string name="tv_title_game_menu">Pilih Lawanmu</string>
+    <string name="tv_game_menu_player_vs_player">Player VS Player</string>
+    <string name="tv_game_menu_player_vs_com">Player VS Computer</string>
 </resources>
